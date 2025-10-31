@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
-
+//bubble Shot
 int bubbleSort(int arr[100], int n){
     for (int i = 0; i < n - 1; i++)
     {
@@ -27,7 +27,7 @@ void printBubbleShot(int arr[100], int n){
     }
     printf("\n");
 }
-
+//binary Search
 void binarySearch(int arr[100], int n, int search){
     int st = 0;
     int end = n - 1;
@@ -63,3 +63,4 @@ int main(){
     binarySearch(arr, n, search);
     return 0;
 }
+
